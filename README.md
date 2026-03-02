@@ -20,6 +20,16 @@ npm i @bu0nq/scss.functions
 @use "@bu0nq/scss.functions/functions";
 ```
 
+or
+
+```scss
+@use "@bu0nq/scss.functions/variables" with (
+  $font-size-default: 16
+);
+
+@use "@bu0nq/scss.functions/functions";
+```
+
 ### Em
 
 ```scss
